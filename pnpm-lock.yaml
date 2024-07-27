@@ -37,8 +37,8 @@ importers:
         specifier: ^2.3.6
         version: 2.3.6(@babel/core@7.24.7)(@types/node@20.14.12)(eslint@9.8.0)(graphql@16.9.0)(tailwindcss@3.4.7)(typescript@5.5.4)
       '@2digits/prettier-config':
-        specifier: ^2.2.2
-        version: 2.2.2(prettier@3.3.3)
+        specifier: ^2.2.3
+        version: 2.2.3(prettier@3.3.3)
       '@2digits/tsconfig':
         specifier: ^0.4.0
         version: 0.4.0(typescript@5.5.4)
@@ -90,9 +90,6 @@ importers:
 
 packages:
 
-  '@2digits/constants@0.2.1':
-    resolution: {integrity: sha512-O+6yf360qqe2hfjJ9IOMA64DjMLC2OBBhxOailjasuNWejcsQx0Rrm/kWaQg40qAa8DTOm3ojqalNBM/t5I76w==}
-
   '@2digits/constants@0.2.2':
     resolution: {integrity: sha512-v6DPi4IJORbf6B0I0XEMb69e/oQiRVnZfOLqK2nO2m7QTPKhYq4ZJ1lPiVb/CZ3BUSubPNOnVNWv2O6U9e+nzA==}
 
@@ -102,10 +99,10 @@ packages:
   '@2digits/eslint-plugin@2.1.5':
     resolution: {integrity: sha512-+65qbPxK2f4kSSutLMiA5bMQHLD1CgUdnEin8wDCH+vCspGFvAAdf2mU/3+S8SfHu+y3HctGSurhIMYZzEvDkg==}
 
-  '@2digits/prettier-config@2.2.2':
-    resolution: {integrity: sha512-+FiDZf9r/GhhW1S+WIxgxXxip3/WaslbRSS/fTfXOqSBvI9yPMlBoo5woyI4e7C6x1ZfY4r9eAWVWemds15xwg==}
+  '@2digits/prettier-config@2.2.3':
+    resolution: {integrity: sha512-NfjnwRbPBxCJCeobKOzWnwb9GYb90grq+pxBzRNW6qU7KfSUrCp4HpKAOGOagBGVJCNFiPbcDe18nRZT/1i+Gw==}
     peerDependencies:
-      prettier: '>=3.3.2'
+      prettier: '>=3.3.3'
 
   '@2digits/tsconfig@0.4.0':
     resolution: {integrity: sha512-UBpchUw/nsp2auA5fLy1PHJgPhy2Z0PKphVUqy0D5Lgjol7pe4BjL/0ezMuA2Cpd89GzQQHS0oQ3kgutqhPuHQ==}
@@ -3793,8 +3790,6 @@ packages:
 
 snapshots:
 
-  '@2digits/constants@0.2.1': {}
-
   '@2digits/constants@0.2.2': {}
 
   '@2digits/eslint-config@2.3.6(@babel/core@7.24.7)(@types/node@20.14.12)(eslint@9.8.0)(graphql@16.9.0)(tailwindcss@3.4.7)(typescript@5.5.4)':
@@ -3849,9 +3844,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@2digits/prettier-config@2.2.2(prettier@3.3.3)':
+  '@2digits/prettier-config@2.2.3(prettier@3.3.3)':
     dependencies:
-      '@2digits/constants': 0.2.1
+      '@2digits/constants': 0.2.2
       '@ianvs/prettier-plugin-sort-imports': 4.3.1(prettier@3.3.3)
       local-pkg: 0.5.0
       prettier: 3.3.3
@@ -5149,7 +5144,7 @@ snapshots:
       '@babel/traverse': 7.24.7
       '@babel/types': 7.24.7
       prettier: 3.3.3
-      semver: 7.6.2
+      semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
 
@@ -5415,7 +5410,7 @@ snapshots:
       debug: 4.3.5
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.6.2
+      semver: 7.6.3
       tsutils: 3.21.0(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
@@ -5430,7 +5425,7 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
-      semver: 7.6.2
+      semver: 7.6.3
       ts-api-utils: 1.3.0(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
@@ -5445,7 +5440,7 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
-      semver: 7.6.2
+      semver: 7.6.3
       ts-api-utils: 1.3.0(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
@@ -5462,7 +5457,7 @@ snapshots:
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.4)
       eslint: 9.8.0
       eslint-scope: 5.1.1
-      semver: 7.6.2
+      semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -6176,7 +6171,7 @@ snapshots:
   eslint-compat-utils@0.5.1(eslint@9.8.0):
     dependencies:
       eslint: 9.8.0
-      semver: 7.6.2
+      semver: 7.6.3
 
   eslint-config-flat-gitignore@0.1.8:
     dependencies:
