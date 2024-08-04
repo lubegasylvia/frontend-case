@@ -37,8 +37,8 @@ importers:
         specifier: ^2.3.7
         version: 2.3.7(@babel/core@7.24.7)(@types/node@20.14.14)(eslint@9.8.0)(graphql@16.9.0)(tailwindcss@3.4.7)(typescript@5.5.4)
       '@2digits/prettier-config':
-        specifier: ^2.2.3
-        version: 2.2.3(prettier@3.3.3)
+        specifier: ^2.2.5
+        version: 2.2.5(prettier@3.3.3)
       '@2digits/tsconfig':
         specifier: ^0.5.0
         version: 0.5.0(typescript@5.5.4)
@@ -93,14 +93,17 @@ packages:
   '@2digits/constants@0.2.2':
     resolution: {integrity: sha512-v6DPi4IJORbf6B0I0XEMb69e/oQiRVnZfOLqK2nO2m7QTPKhYq4ZJ1lPiVb/CZ3BUSubPNOnVNWv2O6U9e+nzA==}
 
+  '@2digits/constants@0.2.4':
+    resolution: {integrity: sha512-XPSxFmhQ7vPjpRqvx1NVhvd68RuPMUWHaUqAOSa4OXB+2l/UDilKz/QCfd36KGunP3Hai/uEqX/XARwqxk9uuA==}
+
   '@2digits/eslint-config@2.3.7':
     resolution: {integrity: sha512-hRCk4BnoRG19u76UHjCSxO4My+5L5zTeQFaple260ONE/sMNxJ50V/59j0d8JA7ZUz/06yXZ7EpknKhtU0W/Qw==}
 
   '@2digits/eslint-plugin@2.1.5':
     resolution: {integrity: sha512-+65qbPxK2f4kSSutLMiA5bMQHLD1CgUdnEin8wDCH+vCspGFvAAdf2mU/3+S8SfHu+y3HctGSurhIMYZzEvDkg==}
 
-  '@2digits/prettier-config@2.2.3':
-    resolution: {integrity: sha512-NfjnwRbPBxCJCeobKOzWnwb9GYb90grq+pxBzRNW6qU7KfSUrCp4HpKAOGOagBGVJCNFiPbcDe18nRZT/1i+Gw==}
+  '@2digits/prettier-config@2.2.5':
+    resolution: {integrity: sha512-Z8zc6XhflE1lUohIJeAtCruIag0sOuD3ZO5WuMNCgU5SIGefHtxFLb+EfDPtUOUHCld7IJd25CfOikBuo5aTmA==}
     peerDependencies:
       prettier: '>=3.3.3'
 
@@ -3800,6 +3803,8 @@ snapshots:
 
   '@2digits/constants@0.2.2': {}
 
+  '@2digits/constants@0.2.4': {}
+
   '@2digits/eslint-config@2.3.7(@babel/core@7.24.7)(@types/node@20.14.14)(eslint@9.8.0)(graphql@16.9.0)(tailwindcss@3.4.7)(typescript@5.5.4)':
     dependencies:
       '@2digits/constants': 0.2.2
@@ -3852,9 +3857,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@2digits/prettier-config@2.2.3(prettier@3.3.3)':
+  '@2digits/prettier-config@2.2.5(prettier@3.3.3)':
     dependencies:
-      '@2digits/constants': 0.2.2
+      '@2digits/constants': 0.2.4
       '@ianvs/prettier-plugin-sort-imports': 4.3.1(prettier@3.3.3)
       local-pkg: 0.5.0
       prettier: 3.3.3
@@ -3963,7 +3968,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.24.7
       '@babel/helper-validator-option': 7.24.7
-      browserslist: 4.23.0
+      browserslist: 4.23.3
       lru-cache: 5.1.1
       semver: 6.3.1
 
