@@ -6,11 +6,7 @@ import { gqlClient } from './client';
 import { getSdk } from './generated/getSdk';
 
 export const PreprSdk = getSdk(
-  async <TData, TVariables>(
-    document: DocumentNode,
-    variables?: TVariables,
-    options?: FetchOptions<'json'>,
-  ) => {
+  async <TData>(document: DocumentNode, variables?: unknown, options?: FetchOptions<'json'>) => {
     const { expression, operationName } = analyzeDocument(document);
 
     const { data } = await gqlClient<{ data: TData }>('', {
