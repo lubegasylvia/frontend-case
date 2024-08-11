@@ -34,8 +34,8 @@ importers:
         version: 0.2.1(tailwindcss@3.4.9)
     devDependencies:
       '@2digits/eslint-config':
-        specifier: ^2.4.5
-        version: 2.4.5(@babel/core@7.24.7)(@types/node@20.14.15)(eslint@9.9.0(jiti@1.21.0))(graphql@16.9.0)(jiti@1.21.0)(tailwindcss@3.4.9)(typescript@5.5.4)
+        specifier: ^2.4.6
+        version: 2.4.6(@babel/core@7.24.7)(@types/node@20.14.15)(eslint@9.9.0(jiti@1.21.0))(graphql@16.9.0)(jiti@1.21.0)(tailwindcss@3.4.9)(typescript@5.5.4)
       '@2digits/prettier-config':
         specifier: ^2.2.5
         version: 2.2.5(prettier@3.3.3)
@@ -93,8 +93,8 @@ packages:
   '@2digits/constants@0.2.4':
     resolution: {integrity: sha512-XPSxFmhQ7vPjpRqvx1NVhvd68RuPMUWHaUqAOSa4OXB+2l/UDilKz/QCfd36KGunP3Hai/uEqX/XARwqxk9uuA==}
 
-  '@2digits/eslint-config@2.4.5':
-    resolution: {integrity: sha512-txaUonZBiYUF+znejc02nwZM/sQFOKqJdiJGUlIpzLyKNb3fpKkR1qH6QCx4Squ8NJ0lw803rozVwgKO1kVqpQ==}
+  '@2digits/eslint-config@2.4.6':
+    resolution: {integrity: sha512-a42VrJ4EgGLtfOvUopqv1NbrwwukvE/xpHk1lCI1x+SxW7KdvvLV7BOmGDRD7CHUSe3jy4tcyzdzwv5NbTnjow==}
 
   '@2digits/eslint-plugin@2.2.4':
     resolution: {integrity: sha512-0a7epLtDtKMaNAn5obfy8mJHIZ7MK9GjOkR7VpBX1KN7aMJAb+tvvQhDYYB1YQpOWM4rgp2LtlrlraYhLL+bjA==}
@@ -3793,7 +3793,7 @@ snapshots:
 
   '@2digits/constants@0.2.4': {}
 
-  '@2digits/eslint-config@2.4.5(@babel/core@7.24.7)(@types/node@20.14.15)(eslint@9.9.0(jiti@1.21.0))(graphql@16.9.0)(jiti@1.21.0)(tailwindcss@3.4.9)(typescript@5.5.4)':
+  '@2digits/eslint-config@2.4.6(@babel/core@7.24.7)(@types/node@20.14.15)(eslint@9.9.0(jiti@1.21.0))(graphql@16.9.0)(jiti@1.21.0)(tailwindcss@3.4.9)(typescript@5.5.4)':
     dependencies:
       '@2digits/constants': 0.2.4
       '@2digits/eslint-plugin': 2.2.4(jiti@1.21.0)(typescript@5.5.4)
