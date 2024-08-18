@@ -7,7 +7,7 @@
 
 ## Retrieving date from the schema
 
-- If you change anything in the schema to retrieve  date from graphql run this command and then the command bellow 
+- If you change anything in the schema to retrieve date from graphql run the command bellow first.
 ```pnpm run codegen```
 
 
