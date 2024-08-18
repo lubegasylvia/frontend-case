@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -26,4 +26,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
+
+
+.header-bg-gradient{
+  background-image: radial-gradient(circle at 70% 60%, #020365 0%, #01041F 99.95%);
+} 

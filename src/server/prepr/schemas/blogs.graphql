@@ -1,0 +1,12 @@
+query Blogs {
+  Blogs {
+    items {
+      title
+      _slug
+      banner_image {
+        url
+      }
+      _id
+    }
+  }
+}
